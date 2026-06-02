@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+**/node_modules/
+.pnpm-store/
+
+# Build and test output
+.next/
+**/.next/
+dist/
+build/
+coverage/
+**/coverage/
+*.tsbuildinfo
+.pytest_cache/
+**/.pytest_cache/
+.mypy_cache/
+**/.mypy_cache/
+.ruff_cache/
+**/.ruff_cache/
+.tox/
+
+# Python
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+**/*.egg-info/
+
+# Local env and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local runtime state
+.run/
+.myllm/
+services/api/services/api/data/
+services/api/data/
+
+# Generated assets and scratch files
+mr_combined.png
+temp.glb
+services/api/mr_combined.png
+services/api/temp.glb
+test_browser.js
+=0.0.20,

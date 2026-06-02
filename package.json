@@ -1,0 +1,14 @@
+{
+  "name": "forgeflow",
+  "private": true,
+  "packageManager": "pnpm@10.32.1",
+  "scripts": {
+    "dev:web": "pnpm --filter @forgeflow/web dev",
+    "build:web": "pnpm --filter @forgeflow/web build",
+    "test:web": "pnpm --filter @forgeflow/web test",
+    "test:ui": "pnpm --filter @forgeflow/ui test",
+    "test:ts": "pnpm -r --filter './packages/**' --filter @forgeflow/web typecheck",
+    "lint:web": "pnpm --filter @forgeflow/web lint"
+  }
+}
+

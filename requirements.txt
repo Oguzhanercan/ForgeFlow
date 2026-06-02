@@ -1,0 +1,3 @@
+# Installs the ForgeFlow FastAPI service dependencies from the canonical
+# Python package metadata in services/api/pyproject.toml.
+-e ./services/api
